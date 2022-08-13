@@ -1,0 +1,102 @@
+.LibraryWrapper a {
+  text-decoration: none;
+  color: black;
+}
+
+.LibraryWrapper .libraryHeader {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 50px;
+  padding-left: 30px;
+  background: white;
+  top: 0;
+}
+
+.LibraryWrapper .LibraryStories {
+  padding: 20px 30px;
+}
+
+.LibraryWrapper .LibraryStories h3 {
+  margin-bottom: 10px;
+}
+
+.LibraryWrapper .LibraryStories .StoryCard {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  max-width: 300px;
+  max-height: 500px;
+  -webkit-box-shadow: 2px 0px 7px 2px #8a8888;
+          box-shadow: 2px 0px 7px 2px #8a8888;
+}
+
+.LibraryWrapper .LibraryStories .StoryCard:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.LibraryWrapper .LibraryStories .StoryCard h2 {
+  text-align: center;
+  background: white;
+}
+
+.LibraryWrapper .LibraryStories .StoryCard img {
+  width: 100%;
+  height: 200px;
+}
+
+.LibraryWrapper .LibraryStories .StoryCard p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.LibraryWrapper input, .LibraryWrapper button {
+  height: 40px;
+  width: 100%;
+  padding: 0 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 400px) {
+  .LibraryWrapper .modal {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px 10px;
+  }
+  .LibraryWrapper button {
+    background: #963848;
+    color: white;
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: 600px) {
+  .LibraryWrapper .StoryCard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .LibraryWrapper .modal {
+    padding: 10px 20px;
+  }
+  .LibraryWrapper .modal .attachment {
+    position: relative;
+    margin-top: 30px;
+    left: -80%;
+  }
+  .LibraryWrapper button {
+    background: white;
+    color: black;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    border-radius: 20px;
+  }
+  .LibraryWrapper button:hover {
+    background: #c93049;
+    color: white;
+  }
+}
+/*# sourceMappingURL=Library.css.map */

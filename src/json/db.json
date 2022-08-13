@@ -1,0 +1,67 @@
+{
+    "Stories" : [
+        {
+          "id": 1,
+          "title": "The Bad Guy",
+          "image": "images/eku.png",
+          "storyPreview": "Story of a Crazy dude whose got mad",
+          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non odio dolore corporis iste provident dolorum culpa aliquid ipsa excepturi maxime, sunt quos blanditiis quasi rem, temporibus tempore laborum? Et consequatur temporibus earum repudiandae voluptatum officia in natus inventore assumenda cupiditate magni nihil dolore esse omnis aliquid repellendus modi repellat commodi aliquam corrupti, odit facilis culpa porro ducimus? Tempore labore laboriosam, dolore consectetur assumenda, nisi molestiae maiores ipsam nam doloremque deleniti atque rerum, modi nostrum! Esse expedita doloremque temporibus sapiente?',  "
+        },
+        {
+          "id": 2,
+          "title": "The grave",
+          "image": "images/eku2.png",
+          "storyPreview": "Story of a Crazy dude whose got mad",
+          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non odio dolore corporis iste provident dolorum culpa aliquid ipsa excepturi maxime, sunt quos blanditiis quasi rem, temporibus tempore laborum? Et consequatur temporibus earum repudiandae voluptatum officia in natus inventore assumenda cupiditate magni nihil dolore esse omnis aliquid repellendus modi repellat commodi aliquam corrupti, odit facilis culpa porro ducimus? Tempore labore laboriosam, dolore consectetur assumenda, nisi molestiae maiores ipsam nam doloremque deleniti atque rerum, modi nostrum! Esse expedita doloremque temporibus sapiente?',"
+        },
+        {
+          "id": 3,
+          "title": "The Fall from Grace",
+          "image": "images/eku3.png",
+          "storyPreview": "Story of a Crazy dude whose got mad",
+          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non odio dolore corporis iste provident dolorum culpa aliquid ipsa excepturi maxime, sunt quos blanditiis quasi rem, temporibus tempore laborum? Et consequatur temporibus earum repudiandae voluptatum officia in natus inventore assumenda cupiditate magni nihil dolore esse omnis aliquid repellendus modi repellat commodi aliquam corrupti, odit facilis culpa porro ducimus? Tempore labore laboriosam, dolore consectetur assumenda, nisi molestiae maiores ipsam nam doloremque deleniti atque rerum, modi nostrum! Esse expedita doloremque temporibus sapiente?',"
+        },
+        {
+          "id": 4,
+          "title": "The Fall from Grace",
+          "image": "images/eku3.png",
+          "storyPreview": "Story of a Crazy dude whose got mad",
+          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non odio dolore corporis iste provident dolorum culpa aliquid ipsa excepturi maxime, sunt quos blanditiis quasi rem, temporibus tempore laborum? Et consequatur temporibus earum repudiandae voluptatum officia in natus inventore assumenda cupiditate magni nihil dolore esse omnis aliquid repellendus modi repellat commodi aliquam corrupti, odit facilis culpa porro ducimus? Tempore labore laboriosam, dolore consectetur assumenda, nisi molestiae maiores ipsam nam doloremque deleniti atque rerum, modi nostrum! Esse expedita doloremque temporibus sapiente?',"
+        },
+        {
+          "id": 5,
+          "title": "The Fall from Grace",
+          "image": "images/eku3.png",
+          "storyPreview": "Story of a Crazy dude whose got mad",
+          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non odio dolore corporis iste provident dolorum culpa aliquid ipsa excepturi maxime, sunt quos blanditiis quasi rem, temporibus tempore laborum? Et consequatur temporibus earum repudiandae voluptatum officia in natus inventore assumenda cupiditate magni nihil dolore esse omnis aliquid repellendus modi repellat commodi aliquam corrupti, odit facilis culpa porro ducimus? Tempore labore laboriosam, dolore consectetur assumenda, nisi molestiae maiores ipsam nam doloremque deleniti atque rerum, modi nostrum! Esse expedita doloremque temporibus sapiente?',"
+        },
+        {
+          "id": 6,
+          "title": "The Fall from Grace",
+          "image": "images/eku3.png",
+          "storyPreview": "Story of a Crazy dude whose got mad",
+          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non odio dolore corporis iste provident dolorum culpa aliquid ipsa excepturi maxime, sunt quos blanditiis quasi rem, temporibus tempore laborum? Et consequatur temporibus earum repudiandae voluptatum officia in natus inventore assumenda cupiditate magni nihil dolore esse omnis aliquid repellendus modi repellat commodi aliquam corrupti, odit facilis culpa porro ducimus? Tempore labore laboriosam, dolore consectetur assumenda, nisi molestiae maiores ipsam nam doloremque deleniti atque rerum, modi nostrum! Esse expedita doloremque temporibus sapiente?',"
+        },
+        {
+          "id": 7,
+          "title": "The Fall from Grace",
+          "image": "images/abimbola.jpg",
+          "storyPreview": "Story of a Crazy dude whose got mad",
+          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non odio dolore corporis iste provident dolorum culpa aliquid ipsa excepturi maxime, sunt quos blanditiis quasi rem, temporibus tempore laborum? Et consequatur temporibus earum repudiandae voluptatum officia in natus inventore assumenda cupiditate magni nihil dolore esse omnis aliquid repellendus modi repellat commodi aliquam corrupti, odit facilis culpa porro ducimus? Tempore labore laboriosam, dolore consectetur assumenda, nisi molestiae maiores ipsam nam doloremque deleniti atque rerum, modi nostrum! Esse expedita doloremque temporibus sapiente?',"
+        },
+        {
+          "id": 8,
+          "title": "The Fall from Grace",
+          "image": "images/abimbola.jpg",
+          "storyPreview": "Story of a Crazy dude whose got mad",
+          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non odio dolore corporis iste provident dolorum culpa aliquid ipsa excepturi maxime, sunt quos blanditiis quasi rem, temporibus tempore laborum? Et consequatur temporibus earum repudiandae voluptatum officia in natus inventore assumenda cupiditate magni nihil dolore esse omnis aliquid repellendus modi repellat commodi aliquam corrupti, odit facilis culpa porro ducimus? Tempore labore laboriosam, dolore consectetur assumenda, nisi molestiae maiores ipsam nam doloremque deleniti atque rerum, modi nostrum! Esse expedita doloremque temporibus sapiente?',"
+        },
+        {
+          "id": 9,
+          "title": "The Fall from Grace",
+          "image": "images/abimbola.jpg",
+          "storyPreview": "Story of a Crazy dude whose got mad",
+          "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non odio dolore corporis iste provident dolorum culpa aliquid ipsa excepturi maxime, sunt quos blanditiis quasi rem, temporibus tempore laborum? Et consequatur temporibus earum repudiandae voluptatum officia in natus inventore assumenda cupiditate magni nihil dolore esse omnis aliquid repellendus modi repellat commodi aliquam corrupti, odit facilis culpa porro ducimus? Tempore labore laboriosam, dolore consectetur assumenda, nisi molestiae maiores ipsam nam doloremque deleniti atque rerum, modi nostrum! Esse expedita doloremque temporibus sapiente?',"
+        }
+      ]
+}
