@@ -14,7 +14,7 @@ import {
   Store,
   VideoLibrary,
 } from "@material-ui/icons";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import GroupModal from "../Menu/GroupModal";
 import FriendModal from "../Menu/FriendModal";
 import { NotifLayout } from "./Notifications";
@@ -22,12 +22,14 @@ import { NotifLayout } from "./Notifications";
 function Menu() {
   const [friendmodal, setFriend] = useState(false);
   const [groupmodal, setOpengroup] = useState(false);
+  const history = useHistory();
 
   const SignOut = () => {
     const auth = getAuth();
     signOut(auth)
       .then(() => {
         alert('user is successfully logged out');
+        history.push('/');
       })
       .catch((error) => {
         alert(error);
