@@ -13,16 +13,16 @@ function CreateAccount() {
     const [biodata,setBiodata] = useState(false);
 
 const auth = getAuth(app);
-const [Email,setEmail] = useState('');
-const [Password,setPassword] = useState('');
+const [email,setEmail] = useState('');
+const [password,setPassword] = useState('');
 const [UserName,setUserName] = useState('');
 const SignUp = () =>{
-    createUserWithEmailAndPassword(auth, Email, Password)
+    createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         const user = userCredential.user;
         user.displayName = UserName;
-        let name_user = user.displayName;
-        alert(`Account ${user.name_user} successfully created`);
+        const name_user = user.displayName;
+        alert(`Account ${name_user} successfully created`);
       })
       .catch((error) => {
         const errorCode = error.code;

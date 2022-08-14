@@ -9,7 +9,7 @@ import {
 } from "@material-ui/icons";
 import React from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import styled from "styled-components";
 import { Layout, Textcontent, Google, Form } from "./createAccount";
 import { getAuth,signInWithEmailAndPassword } from "firebase/auth";
@@ -20,6 +20,7 @@ function SignIn() {
   const passInput = document.querySelector(".password");
   const [isPassword, setisPassword] = useState(true);
   const [ptype, setType] = useState("password");
+  const history = useHistory();
 
   const auth = getAuth(app);
   const [Email, setEmail] = useState("");
@@ -31,6 +32,7 @@ function SignIn() {
       .then((userCredential) => {
         const user = userCredential.user;
         alert(`successful login`);
+        history.push('/home');
       })
       .catch((error) => {
         const errorCode = error.code;
