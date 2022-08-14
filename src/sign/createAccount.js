@@ -3,7 +3,7 @@ import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { SigninWrap,Signin,Ortag,Button,Formcontent,Logo, Backver } from './SignIn';
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import app from '../firebase';
 
 function CreateAccount() {
@@ -28,7 +28,6 @@ const SignUp = () =>{
         const errorCode = error.code;
     });
 }
-
   function userdata(){
     setBiodata(true);
   }
@@ -38,12 +37,12 @@ const SignUp = () =>{
     function showPassword() {
         setisPassword(false);
         setType('text');
-        if(ptype=='password'){passInput.type='text'}
+        if(ptype==='password'){passInput.type='text'}
     }
     function hidePassword(){
         setisPassword(true);
         setType('password');
-        if(ptype=='text'){passInput.type='password'}
+        if(ptype==='text'){passInput.type='password'}
     }
   return (
     <Layout>
