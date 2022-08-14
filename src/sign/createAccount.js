@@ -3,12 +3,32 @@ import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { SigninWrap,Signin,Ortag,Button,Formcontent,Logo, Backver } from './SignIn';
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
+import app from '../firebase';
 
 function CreateAccount() {
     const passInput = document.querySelector('#password');
     const [isPassword,setisPassword] = useState(true);
     const [ptype,setType] = useState('password');
     const [biodata,setBiodata] = useState(false);
+
+const auth = getAuth(app);
+const [Email,setEmail] = useState('');
+const [Password,setPassword] = useState('');
+const [UserName,setUserName] = useState('');
+const SignUp = () =>{
+    createUserWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        const user = userCredential.user;
+        user.displayName = UserName;
+        let name_user = user.displayName;
+        alert(`Account ${user.name_user} successfully created`);
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+    });
+}
+
   function userdata(){
     setBiodata(true);
   }
@@ -40,18 +60,18 @@ function CreateAccount() {
             <Ortag>Or</Ortag>
             <Form>
                 <Formcontent>
-                  <input type="text" placeholder='Username' />
+                  <input type="text" placeholder='Username' onChange={(e)=>setUserName(e.target.value)}/>
                     <VerifiedUserOutlined/>
                 </Formcontent>  
                 <Formcontent>
-                    <input type="text" placeholder='Email' />
+                    <input type="text" placeholder='Email' onChange={(e)=> setEmail(e.target.value)}/>
                     <EmailOutlined/>
                 </Formcontent>
                 <Formcontent>
-                    <input type="password" placeholder='Password' name="" id="password" />
+                    <input type="password" placeholder='Password' name="" id="password" onChange={(e)=> setPassword(e.target.value)}/>
                     {(isPassword)?<LockOutlined onClick={showPassword}/>:<LockOpenOutlined onClick={hidePassword}/>}
                 </Formcontent>        
-                <Link to='/NewUserForm'><Signin onClick={userdata}>Sign Up</Signin></Link>
+                <Link to='/NewUserForm'><Signin onClick={SignUp}>Sign Up</Signin></Link>
                 <p>Have an account? <Link to='/'><span>Sign In</span></Link></p>
             </Form>
         </Mobilevers>
