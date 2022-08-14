@@ -26,6 +26,7 @@ const SignUp = () =>{
       })
       .catch((error) => {
         const errorCode = error.code;
+        alert(errorCode);
     });
 }
   function userdata(){
