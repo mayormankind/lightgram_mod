@@ -70,7 +70,7 @@ const SignUp = () =>{
                     <input type="password" placeholder='Password' name="" id="password" onChange={(e)=> setPassword(e.target.value)}/>
                     {(isPassword)?<LockOutlined onClick={showPassword}/>:<LockOpenOutlined onClick={hidePassword}/>}
                 </Formcontent>        
-                <Link to='/NewUserForm'><Signin onClick={SignUp}>Sign Up</Signin></Link>
+                <Signin onClick={SignUp}>Sign Up</Signin>
                 <p>Have an account? <Link to='/'><span>Sign In</span></Link></p>
             </Form>
         </Mobilevers>
