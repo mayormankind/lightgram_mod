@@ -23,12 +23,12 @@ function SignIn() {
   const history = useHistory();
 
   const auth = getAuth(app);
-  const [Email, setEmail] = useState("");
-  const [Password, setPassword] = useState("");
-  const [UserName, setUserName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+//   const [UserName, setUserName] = useState("");
 
   const CheckSignIn = (app) => {
-    signInWithEmailAndPassword(auth, Email, Password)
+    signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         const user = userCredential.user;
         alert(`successful login`);
