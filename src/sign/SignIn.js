@@ -12,6 +12,9 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Layout, Textcontent, Google, Form } from "./createAccount";
+import { getAuth,signInWithEmailAndPassword } from "firebase/auth";
+import app from '../firebase';
+
 
 function SignIn() {
   const passInput = document.querySelector(".password");
@@ -23,8 +26,8 @@ function SignIn() {
   const [Password, setPassword] = useState("");
   const [UserName, setUserName] = useState("");
 
-  const CheckSignIn = () => {
-    signInWithEmailAndPassword(auth, email, password)
+  const CheckSignIn = (app) => {
+    signInWithEmailAndPassword(auth, Email, Password)
       .then((userCredential) => {
         const user = userCredential.user;
         alert(`successful login`);

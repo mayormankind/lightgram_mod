@@ -17,7 +17,7 @@ const [Email,setEmail] = useState('');
 const [Password,setPassword] = useState('');
 const [UserName,setUserName] = useState('');
 const SignUp = () =>{
-    createUserWithEmailAndPassword(auth, email, password)
+    createUserWithEmailAndPassword(auth, Email, Password)
       .then((userCredential) => {
         const user = userCredential.user;
         user.displayName = UserName;
