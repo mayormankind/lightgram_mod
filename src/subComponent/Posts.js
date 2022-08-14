@@ -22,7 +22,5 @@ function Post(props) {
   )
 }
 export const Text = styled.div`
-  font-family: cursive;
-  /* font-weight: ; */
 `;
 export default Post;
